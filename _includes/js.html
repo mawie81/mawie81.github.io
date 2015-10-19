@@ -13,6 +13,8 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{site.baseurl}}/js/grayscale.js"></script>
 
+<script src="{{site.baseurl}}/js/jquery.imageScroll.min.js"></script>
+
 {% if site.google-tracking-id %}
 
   <!-- Google Tracking Id Start -->
@@ -129,6 +131,10 @@
     shuffle(myQuotes)
   {% endif %}
 
+    $('.img-holder').imageScroll({
+      coverRatio: 1.0
+    });
+
     $(".intro-text").typed({
                   strings: myQuotes,
                   typeSpeed: {{ site.type-speed }},
@@ -138,6 +144,8 @@
                   loopCount: {{ site.loop-count }},
                   cursorChar: "|"
                 });
+
+
   </script>
 
   <!-- Dynamic Typing End  -->
