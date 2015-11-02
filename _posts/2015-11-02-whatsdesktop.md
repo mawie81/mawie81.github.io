@@ -26,12 +26,12 @@ Next time you launch WhatsDesktop it will find your phone and connect to WhatsAp
 * Use WhatsApp directly from your desktop
 * Send and receive pictures and other media files
 * Get notifications when new messages arrive
-  * native notifications
-  * dock icon badge with number of unread messages
-  * tray icon with indicator when you have unread messages
-* fully resizable window that will remembers saves and restores its size and position
-* use standard os emojis (hit CMD+Alt+Space)
-* supports all languages WhatsApp currently supports (the language of WhatsApp is determined by the language of your phone)
+  * Native notifications
+  * Dock icon badge with number of unread messages
+  * Tray icon with indicator when you have unread messages
+* Fully resizable window that will remembers saves and restores its size and position
+* Use standard os emojis (hit CMD+Alt+Space)
+* Offers all languages WhatsApp currently supports (the language of the app is determined by the language of your phone)
 
 ## Screenshots
 
