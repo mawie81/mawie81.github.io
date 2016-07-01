@@ -65,7 +65,10 @@ reddit-share: False
 
 events:
   - image: "/img/career/sprd.png"
-    date: "October 2014 - today"
+    date: "March 2016 - today"
+    description: "Senior Frontend Engineer @ <a href='http://www.spreadshirt.net/' target='_blank'>sprd.net AG</a>"
+  - image: "/img/career/sprd.png"
+    date: "October 2014 - March 2016"
     description: "Frontend Engineer @ <a href='http://www.spreadshirt.net/' target='_blank'>sprd.net AG</a>"
   - image: "/img/career/cpx.png"
     date: "February 2007 - September 2014"
