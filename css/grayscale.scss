@@ -13,9 +13,11 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: $light;
-    background-color: $dark;
+
+    font: 16px/1.625 "Open Sans", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: $grey;
 }
 
 html {
@@ -31,7 +33,6 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -51,14 +52,17 @@ p {
 }
 
 a {
-    color: $primary;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+
+    text-decoration: none;
+    color: $link;
+    
     &:hover,
     &:focus {
-    text-decoration: none;
-        color: darken($primary, 20%);
+        text-decoration: underline;
+        color: $link;
     }
 }
 
@@ -79,7 +83,7 @@ ol {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    //font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: $dark;
     .navbar-brand {
         font-weight: 700;
@@ -133,7 +137,7 @@ ol {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: $dark;
+        background-color: $grey;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -321,11 +325,12 @@ ul.social-buttons li a {
     width: 40px;
     height: 40px;
     border-radius: 100%;
+    border: 1px solid $grey;
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    /* color: #fff; */
-    background-color: #222;
+    background-color: $grey;
+    color: white;
 
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -334,8 +339,9 @@ ul.social-buttons li a {
     &:hover,
     &:focus,
     &:active {
-        color: #222;
-        background-color: darken($primary, 10%);
+        color: $grey;
+        background-color: white;
+
     }
 }
 
