@@ -131,8 +131,14 @@
     shuffle(myQuotes)
   {% endif %}
 
+    var backgrounds = [1,2,3];
+
+    var i = Math.random() * backgrounds.length | 0
+    var background = backgrounds[i]
+
     $('.img-holder').imageScroll({
-      coverRatio: 1.0
+      coverRatio: 1.0,
+      image: '../img/' + background + '.jpg'
     });
 
     $(".intro-text").typed({
